@@ -34,15 +34,16 @@ function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                Woohojin Coaching
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                Somos una asociación de coaches enfocados al gaming que buscamos llevar tu gameplay a un nuevo nivel.
+                Desde rutinas de AIM hasta VOD Reviews personalizadas, buscamos hacerte cada dia un mejor jugador.
+                Bienvenido a WCoaching.
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+            {/* <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
@@ -88,7 +89,7 @@ function Footer() {
                   Help
                 </a>
               </p>
-            </MDBCol>
+            </MDBCol> */}
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
