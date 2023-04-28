@@ -2,7 +2,7 @@ import CoachingList from "../../components/coachinglist/CoachingList";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 
-function Contact() {
+function Reviews() {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Reviews;

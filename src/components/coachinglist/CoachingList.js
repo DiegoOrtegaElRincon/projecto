@@ -12,11 +12,6 @@ function CoachingList() {
         setCoaching(allCoaching);
     }
 
-    const handleChange = (event) => {
-        const searchValue = event.target.value;
-        setQuery(searchValue);
-    }
-
     const showCoaching = () => {
         return (
             coaching.map(c => {
@@ -38,9 +33,7 @@ function CoachingList() {
     return (
         <>
             <div className="coaching_info">
-                <div className="car-list-container">
-                    {showCoaching()}
-                </div>
+                {showCoaching()}
             </div>
         </>
     );
