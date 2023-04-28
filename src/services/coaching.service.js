@@ -10,11 +10,11 @@ const coaching = [
     }, {
         title: "TALLERES DE AIM",
         info: "Talleres enfocados a mejorar tu consistencia al aimear",
-        img: "mercedes.jfif"
+        img: "aimcoaching.jpg"
     }, {
         title: "VOD Review Personalizada",
         info: "Ofrecemos servicios de VOD Reviews personalizadas en el que ofreceremos feedback preciso de cada situacion",
-        img: "mercedes.jfif"
+        img: "vodcoaching.jpg"
     }];
 
 const getCoaching = () => {

@@ -2,7 +2,7 @@ import coachingService from "../../services/coaching.service";
 import "./CoachingList.css";
 import { useEffect, useState } from "react";
 
-function CarList() {
+function CoachingList() {
     const [coaching, setCoaching] = useState([]);
 
     const [query, setQuery] = useState("");
@@ -46,4 +46,4 @@ function CarList() {
     );
 }
 
-export default CarList;
+export default CoachingList;
