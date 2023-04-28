@@ -5,25 +5,10 @@
     padding: 1vw;
 }
 
-.coaching_info_container_title{
+.coaching_info_container_title {
     text-align: center;
 }
 
-.coaching_info_container_info{
+.coaching_info_container_info {
     text-align: center;
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-    .CoachingList_container{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
 }
