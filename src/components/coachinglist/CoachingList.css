@@ -1,4 +1,3 @@
-
 .coaching_info_container {
     display: flex;
     justify-content: center;
@@ -27,14 +26,14 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .coaching_info{
+    .coaching_info {
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
         align-items: baseline;
     }
-    .coaching_info_container{
+
+    .coaching_info_container {
         width: 50%;
     }
 }
-
