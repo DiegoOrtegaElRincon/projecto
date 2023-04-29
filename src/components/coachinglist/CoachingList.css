@@ -1,0 +1,39 @@
+.coaching_info_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.coaching_info_container_img {
+    display: flex;
+    justify-content: center;
+}
+
+.coaching_info_container_img>img {
+    height: 25vw;
+    width: 150vw;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40vw;
+    object-fit: cover;
+}
+
+.coaching_info_container_img>img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .coaching_info {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: baseline;
+    }
+
+    .coaching_info_container {
+        width: 50%;
+    }
+}

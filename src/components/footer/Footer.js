@@ -10,16 +10,16 @@ function Footer() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://es-es.facebook.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://twitter.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.google.es/' className='me-4 text-reset'>
             <MDBIcon fab icon="google" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
           <a href='https://github.com/DiegoOrtegaElRincon/projecto' className='me-4 text-reset'>
@@ -34,58 +34,36 @@ function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                Woohojin Coaching
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                Somos una asociación de coaches enfocados al gaming que buscamos llevar tu gameplay a un nuevo nivel.
+                Desde rutinas de AIM hasta VOD Reviews personalizadas, buscamos hacerte cada dia un mejor jugador.
+                Bienvenido a WCoaching.
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  React
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
-              </p>
-            </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Pricing
+                <a href='/home' className='text-reset'>
+                  Home
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Settings
+                <a href='/vods' className='text-reset'>
+                  VODs
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Orders
+                <a href='/reviews' className='text-reset'>
+                  Reviews
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Help
+                <a href='/contact' className='text-reset'>
+                  Contact
                 </a>
               </p>
             </MDBCol>
