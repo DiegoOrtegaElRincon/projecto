@@ -1,0 +1,14 @@
+.top_info_quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+}
+
+.coaching_info_container_title {
+    text-align: center;
+}
+
+.coaching_info_container_info {
+    text-align: center;
+}
