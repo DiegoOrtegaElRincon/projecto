@@ -1,27 +1,24 @@
 // Import the functions you need from the SDKs you need
-import { getDatabase } from "firebase/database";
-// Initialize Realtime Database and get a reference to the service
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
+import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBuPFB4Mbc9zVkypHGFPKrQjqiX3Wdt-B4",
-  authDomain: "projecto-36858.firebaseapp.com",
-  databaseURL: "https://projecto-36858-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "projecto-36858",
-  storageBucket: "projecto-36858.appspot.com",
-  messagingSenderId: "799369896689",
-  appId: "1:799369896689:web:7ec07fa85bbc61f6d3bf50",
-  measurementId: "G-ZJ6VKRRG1G"
+  apiKey: "AIzaSyAscJnjZWWa-WJv-lhCy7RezD3BswEExJw",
+  authDomain: "chat-projecto.firebaseapp.com",
+  databaseURL: "https://chat-projecto-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "chat-projecto",
+  storageBucket: "chat-projecto.appspot.com",
+  messagingSenderId: "978862792850",
+  appId: "1:978862792850:web:d374abfdf8dd9f69de464b",
+  measurementId: "G-B6XQSP5377"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
-export default database
+export default database;

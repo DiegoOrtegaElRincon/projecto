@@ -62,6 +62,11 @@ function Footer() {
                 </a>
               </p>
               <p>
+                <a href='/forum' className='text-reset'>
+                  Forum
+                </a>
+              </p>
+              <p>
                 <a href='/contact' className='text-reset'>
                   Contact
                 </a>
