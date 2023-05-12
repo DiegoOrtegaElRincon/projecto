@@ -66,6 +66,11 @@ function Footer() {
                   Contact
                 </a>
               </p>
+              <p>
+                <a href='public\rss\RSS.xml' className='text-reset'>
+                  RSS
+                </a>
+              </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>

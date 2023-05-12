@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias de Videojuegos</title>
+    <link>https://playvalorant.com/es-es/news/</link>
+    <description>Noticias sobre Valorant y sus actualizaciones</description>
+    <language>es</language>
+    
+    <item>
+      <title>Notas de la versión 6.08 de VALORANT</title>
+      <link>https://playvalorant.com/es-es/news/game-updates/valorant-patch-notes-6-08/</link>
+      <description>Acto nuevo, versión nueva. Venimos cargaditos con la versión 6.08: Bind vuelve a los modos competitivo y normal, pero Icebox sale. Además, hemos mejorado el audio de Gekko y actualizado las habilidades de Killjoy. También hemos preparado una actualización cosmética para varias líneas de diseño de Shorty, entre las que se encuentra la Shorty predeterminada. </description>
+      <pubDate>26/04/2023</pubDate>
+    </item>
+    
+    <item>
+      <title>Preguntas frecuentes de la beta abierta mundial de Premier</title>
+      <link>https://playvalorant.com/es-es/news/game-updates/premier-global-open-beta-faq/</link>
+      <description>Premier es el sistema competitivo por equipos de VALORANT, cuya beta abierta mundial comienza el 25 de abril. Ved el vídeo de abajo para saber cómo funciona y para que estéis preparados desde el primer día. Si tenéis alguna duda, consultad las preguntas frecuentes que encontraréis más abajo.</description>
+      <pubDate>17/04/23</pubDate>
+    </item>
+    
+    <item>
+      <title>Notas de la versión 6.07 de VALORANT</title>
+      <link>https://playvalorant.com/es-es/news/game-updates/valorant-patch-notes-6-07/</link>
+      <description>Por fin ha vuelto Bind. Notaréis algunos cambios importantes tras estar fuera de las colas competitiva y normal un tiempo, así que contadnos qué pensáis.</description>
+      <pubDate>11/04/23</pubDate>
+    </item>
+    
+  </channel>
+</rss>
