@@ -67,7 +67,7 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href='public\rss\RSS.xml' className='text-reset'>
+                <a href='/rss/RSS.xml' className='text-reset'>
                   RSS
                 </a>
               </p>
