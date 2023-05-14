@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { FaRegTrashAlt } from 'react-icons/fa';
+import { FaRegTrashAlt , FaUpload } from 'react-icons/fa';
 import CommentService from "../../services/comment.service";
 import "./CommentList.css";
 
@@ -40,6 +40,8 @@ function CommentList() {
       form.comment.value = data.val().comment
       form.key.value = data.key
     })
+    document.getElementById('comment-form').classList.add('hide')
+    document.getElementById('update-form').classList.remove('hide')
   }
 
   const updateComment = (e) => {
@@ -48,6 +50,9 @@ function CommentList() {
     let nickname = e.target.nickname.value
     let comment = e.target.comment.value
     CommentService.updateComment(key, nickname, comment).then(() => {getAllComments()})
+    document.getElementById('comment-form').classList.remove('hide')
+    document.getElementById('update-form').classList.add('hide')
+    
   }
 
   const addComment = (e) => {
@@ -73,7 +78,7 @@ function CommentList() {
             <input className="rounded-input" type="text" name="comment" placeholder="comment" />
             <input className="rounded-input" type="submit" value="Add Comment" />
           </form>
-          <form id="update-form" className="forms" onSubmit={updateComment} ref={refForm}>
+          <form id="update-form" className="forms hide" onSubmit={updateComment} ref={refForm}>
             <input className="rounded-input" type="text" name="nickname" placeholder="nickname" />
             <input className="rounded-input" type="text" name="comment" placeholder="comment" />
             <input className="rounded-input" type="submit" value="Update Comment" />
@@ -84,9 +89,11 @@ function CommentList() {
         <div className="comment-list">
           {comments.map(b =>
             <div className="comment-item" key={b.key}>
-              <p>{b.nickname} {b.comment}</p>
-              <button className="update-comment" onClick={() => putComment(b.key)} />
+              <p>{b.nickname}: {b.comment}</p>
+              <div>
+              <FaUpload className="update-comment" onClick={() => putComment(b.key)} />
               <FaRegTrashAlt className="delete-comment" onClick={() => removeComment(b.key)} />
+              </div>
             </div>
           )}
         </div>
