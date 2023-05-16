@@ -1,14 +1,5 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -17,6 +8,10 @@
   </a>
 
 <h3 align="center">WCoaching</h3>
+
+<p align="center">
+    Un pequeño proyecto sobre una página web de coaching
+  </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -32,6 +27,7 @@
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledments">Contact</a></li>
   </ol>
 </details>
 
@@ -77,9 +73,20 @@ Diego Alejandro Ortega Manzano - diegoalejandroortegamanzano@alumno.ieselrincon.
 
 Project Link: [https://github.com/DiegoOrtegaElRincon/projecto](https://github.com/DiegoOrtegaElRincon/projecto)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Aquí hay unos cuantos recursos que me fueron utiles a la hora de hacer el proyecto.
+
+* [YoutubeEmbed](https://dev.to/bravemaster619/simplest-way-to-embed-a-youtube-video-in-your-react-app-3bk2)
+* [MDB](https://mdbootstrap.com/docs/react/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
