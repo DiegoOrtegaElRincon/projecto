@@ -5,18 +5,16 @@ function New2() {
     return (
         <>
             <Header />
-            <div>
-                <h2>
-                    <span>Preguntas frecuentes de la beta abierta mundial de Premier</span>
-                </h2>
+            <div className="main-div">
+                <div className="title">
+                    <h2><span>Preguntas frecuentes de la beta abierta mundial de Premier</span></h2>
+                </div>
                 <div>
-
                 </div>
                 <div>
                     <p>
                         <span>Premier es el sistema competitivo por equipos de VALORANT, cuya beta abierta mundial comienza el 25 de abril. Ved el vídeo de abajo para saber cómo funciona y para que estéis preparados desde el primer día. Si tenéis alguna duda, consultad las preguntas frecuentes que encontraréis más abajo.</span>
                     </p>
-
                 </div>
                 <div>
                     <p>
@@ -32,10 +30,7 @@ function New2() {
                     </p>
                     <h2>PREGUNTAS FRECUENTES DE LA BETA ABIERTA MUNDIAL DE PREMIER</h2>
                     <h3>
-
-
                         <span>GENERAL</span>
-
                     </h3>
                     <h4>
                         <strong>¿Cuánto durará la beta abierta mundial de Premier?</strong></h4>
@@ -120,10 +115,8 @@ function New2() {
                         <strong>¿Puede jugar cualquiera en la beta de Premier?</strong></h4>
                     <ul>
                         <li>Aparte de los requisitos expuestos arriba, cualquiera con una cuenta de VALORANT en buenas condiciones puede jugar mientras dure la beta de Premier.</li>
-
                         <ul>
                             <li>
-
                                 <span>Una cuenta "en buenas condiciones" significa que no se encuentra suspendida. Esto también incluye aquellas cuentas con restricciones en la cola competitiva si dicha restricción coincide con el plazo de inscripción o de juego.</span>
                             </li>
                         </ul></ul>
@@ -261,15 +254,12 @@ function New2() {
                             <span>Los equipos de Premier pueden jugar dos partidas cada semana.</span>
                         </li>
                         <li>
-
                             <span>Podréis ver el calendario completo en el portal del equipo tras el lanzamiento de Premier en el cliente, pero haceos a la idea de que habrá enfrentamientos dos tardes a la semana en vuestra zona horaria.</span>
                         </li>
                     </ul>
                     <h4>
                         <strong></strong>
-
                         <span><strong></strong>
-
                             <span><strong>¿Puedo jugar mis dos partidas semanales en un mismo día?</strong></span>
                         </span>
                     </h4>

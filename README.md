@@ -9,9 +9,9 @@
 
 <h3 align="center">WCoaching</h3>
 
-<p align="center">
-    Un pequeño proyecto sobre una página web de coaching
-  </p>
+<p align="center">Un pequeño proyecto sobre una página web de coaching, link abajo</p>
+<p align="center"><a>https://chat-projecto.web.app/</a></p>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->

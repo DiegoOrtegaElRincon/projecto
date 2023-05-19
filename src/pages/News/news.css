@@ -1,0 +1,45 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1vh;
+}
+
+.title {
+    padding: 2vh;
+}
+
+li {
+    text-align: start;
+}
+
+p>img {
+    width: 75em;
+    height: auto;
+}
+
+td {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.table-img {
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.table-img>tbody>tr {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.table-img>tbody>tr>td>a>img {
+    width: 45em;
+    height: auto;
+}
