@@ -39,6 +39,9 @@ function Header() {
                 <li class="nav-item">
                   <a class="nav-link" href="/contact">CONTACT</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/news">NEWS</a>
+                </li>
               </ul>
             </div>
           </div>
